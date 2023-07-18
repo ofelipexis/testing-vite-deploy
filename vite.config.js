@@ -5,7 +5,7 @@ dotenv.config(); // load env vars from .env
 
 export default defineConfig({
   define: {
-    __id__: `"${process.env.ID}"`,
+    __id__: `"${process.env.VITE_ID}"`,
   },
-  base: "/testing-vite-deploy",
+  base: '/testing-vite-deploy/',
 });
